@@ -41,11 +41,11 @@ cd polls-app
 ### BBACKEND SET UP
 cd polls-backend
 python -m venv venv
-source venv/bin/activate     # On Windows: venv\Scripts\activate
+source venv/bin/activate     
 pip install -r requirements.txt
 
 ### Set environment variable
-export FLASK_APP=app.py      # On Windows: set FLASK_APP=app.py
+export FLASK_APP=app.py      
 
 # Initialize DB
 flask db init
